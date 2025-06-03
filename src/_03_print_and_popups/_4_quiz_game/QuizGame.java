@@ -21,17 +21,39 @@ public class QuizGame {
 				} else{
 					score--;
 					JOptionPane.showMessageDialog(null, "You are incorrect! Gain 0 points. Your current score is "+score+"." );
+					
+					String input2 = JOptionPane.showInputDialog("How many words are in this sentence?");
+					if(input2.equalsIgnoreCase("7")){
+						score++;
+						JOptionPane.showMessageDialog(null, "Correct. Gain one point. Your current score is " + score); 
+					} else{
+						score--;
+						JOptionPane.showMessageDialog(null,"Incorrect. Lose one point. Your current score is " + score); 
+					}
+
+					JOptionPane.showMessageDialog(null, "Your final score is " + score); 
+
+
+
+
+
+
 				}
-				}
+				
 				
 				// 4.  if the user's answer was correct, add one to their score 
 		
 		// MAKE MORE QUESTIONS. Ask more questions by repeating the above 
 				// Option: Subtract a point from their score for a wrong answer
 				
+
+				
+				
 		
 		
 		// After all the questions have been asked, tell the user their final score 
 		
+		
 	}
+}
 

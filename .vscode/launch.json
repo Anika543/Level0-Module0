@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AwesomeOrNot",
+            "request": "launch",
+            "mainClass": "_03_print_and_popups._5_awesome_or_not.AwesomeOrNot",
+            "projectName": "Level0-Module0_26c0ea05"
+        },
+        {
+            "type": "java",
             "name": "DragonFight",
             "request": "launch",
             "mainClass": "_04_amazing_games._2_dragon_fight.DragonFight"
